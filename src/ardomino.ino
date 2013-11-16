@@ -64,8 +64,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // Struct to hold sensor data
 struct SensorData {
-  float humidity;
   float temperature;
+  float humidity;
 };
 
 // Used to serialize data, for transmission
