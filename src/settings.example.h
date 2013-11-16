@@ -18,3 +18,7 @@
 // Address of the TCP server to which to send data
 #define SERVER_ADDR "10.99.66.1"
 #define SERVER_PORT 43555
+
+// Serial baud rate
+#define SERIAL_SPEED 115200
+#define DEVICE_ID "Ardomino-WiFly"  // was: "Wifly-WebClient"
