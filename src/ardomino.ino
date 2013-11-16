@@ -72,7 +72,7 @@ struct SensorData {
 // over the wire.
 // Note: we should send BIG endian data, but
 // right now we are using LITTLE endian, which
-// seems to be the default in x86_64..
+// seems to be the default on the AVR..
 union PackedSensorData {
   struct SensorData values;
   char packed[sizeof(struct SensorData)];
